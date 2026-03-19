@@ -1,0 +1,564 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "id": "class_9",
+      "label": "Class 9",
+      "labelHindi": "कक्षा 9",
+      "subjects": [
+        {
+          "id": "phy_9",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "chapters": [
+            {
+              "id": "phy9_ch8",
+              "nameHindi": "गति",
+              "nameEnglish": "Motion",
+              "topics": [
+                {
+                  "id": "speed_vel_acc",
+                  "icon": "🚂",
+                  "nameHindi": "चाल, वेग और त्वरण",
+                  "nameEnglish": "Speed, Velocity & Acceleration",
+                  "realWorldTag": "🚂 ट्रेन और कार",
+                  "progressPercent": 0,
+                  "conceptHindi": "जब कोई वस्तु अपनी स्थिति बदलती है — उसे गति कहते हैं। चाल = दूरी/समय, वेग = विस्थापन/समय।",
+                  "realWorldExampleHindi": "ट्रेन जब स्टेशन से चलती है — पहले धीरे, फिर तेज़। Speedometer आपकी instantaneous speed दिखाता है। GPS आपकी position हर second track करता है।",
+                  "formula": "v = u + at | s = ut + ½at²",
+                  "keyPoints": [
+                    "दूरी (Distance) = कुल चला हुआ रास्ता (scalar)",
+                    "विस्थापन (Displacement) = initial से final position (vector)",
+                    "चाल (Speed) = दूरी / समय",
+                    "वेग (Velocity) = विस्थापन / समय (direction भी)",
+                    "त्वरण (Acceleration) = वेग में परिवर्तन / समय"
+                  ],
+                  "businessConnectionHindi": "GPS app बनाओ, logistics tracking, drone delivery — सब motion physics पर। Uber/Ola भी speed और distance calculate करती है।",
+                  "animationType": "motion",
+                  "quiz": {
+                    "questionHindi": "एक समान वृत्तीय गति में क्या नियत रहता है?",
+                    "options": ["वेग", "चाल", "त्वरण", "विस्थापन"],
+                    "correctIndex": 1,
+                    "explanationHindi": "सही! Uniform circular motion में चाल (speed) नियत रहती है लेकिन direction बदलने से velocity बदलती है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "phy9_ch9",
+              "nameHindi": "बल तथा गति के नियम",
+              "nameEnglish": "Force and Laws of Motion",
+              "topics": [
+                {
+                  "id": "newton_laws",
+                  "icon": "🍎",
+                  "nameHindi": "Newton के गति के नियम",
+                  "nameEnglish": "Newton's Laws of Motion",
+                  "realWorldTag": "🏏 Cricket में",
+                  "progressPercent": 0,
+                  "conceptHindi": "Newton ने 3 ऐसे नियम दिए जो पूरी mechanics की नींव हैं।",
+                  "realWorldExampleHindi": "Cricket: Batsman ball को hit करता है (Force) → ball accelerate होती है (2nd law). Ball bat को भी उतना ही force देती है (3rd law). Seatbelt inertia (1st law) से बचाती है।",
+                  "formula": "F = ma",
+                  "keyPoints": [
+                    "1st Law (Inertia): बाहरी force न हो तो वस्तु अपनी state नहीं बदलती",
+                    "2nd Law: F = ma (Force = mass × acceleration)",
+                    "3rd Law: हर action का equal and opposite reaction",
+                    "Momentum p = mv",
+                    "Impulse = Force × time = change in momentum"
+                  ],
+                  "businessConnectionHindi": "Car safety design (airbag, seatbelt), sports equipment manufacturing, rocket propulsion — सब Newton's laws पर!",
+                  "animationType": "newton",
+                  "quiz": {
+                    "questionHindi": "F = ma किस Newton के नियम से है?",
+                    "options": ["1st Law", "2nd Law", "3rd Law", "Law of Gravitation"],
+                    "correctIndex": 1,
+                    "explanationHindi": "बिल्कुल! F = ma Newton का 2nd Law of Motion है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "phy9_ch10",
+              "nameHindi": "गुरुत्वाकर्षण",
+              "nameEnglish": "Gravitation",
+              "topics": [
+                {
+                  "id": "gravitation",
+                  "icon": "🌍",
+                  "nameHindi": "गुरुत्वाकर्षण",
+                  "nameEnglish": "Gravitation",
+                  "realWorldTag": "🌾 खेत से जुड़ा",
+                  "progressPercent": 0,
+                  "conceptHindi": "जब भी आप कोई चीज़ ऊपर फेंकते हैं — वो वापस नीचे आती है। पृथ्वी उसे अपनी ओर खींचती है।",
+                  "realWorldExampleHindi": "किसान पेड़ से आम तोड़ता है — नीचे गिरता है। Rocket को gravity के विरुद्ध ऊपर जाना पड़ता है। Satellite पृथ्वी का चक्कर gravity की वजह से लगाता है।",
+                  "formula": "F = GMm/r² | g = 9.8 m/s²",
+                  "keyPoints": [
+                    "Universal Gravitation: F = GMm/r²",
+                    "g = 9.8 m/s² (पृथ्वी पर)",
+                    "चंद्रमा पर g = 1.67 m/s² (1/6 of Earth)",
+                    "भार (Weight) = mg | द्रव्यमान (Mass) = constant",
+                    "Free fall: सभी वस्तुएं समान g से गिरती हैं"
+                  ],
+                  "businessConnectionHindi": "Lift/elevator बनाना, drone delivery, satellite launching, GPS — सब gravitation पर।",
+                  "animationType": "gravitation",
+                  "quiz": {
+                    "questionHindi": "पृथ्वी पर g का मान कितना है?",
+                    "options": ["9.8 m/s²", "10.8 m/s²", "8.9 m/s²", "11 m/s²"],
+                    "correctIndex": 0,
+                    "explanationHindi": "सही! g = 9.8 m/s² है। Calculate करते समय अक्सर 10 m/s² लिया जाता है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "phy9_ch12",
+              "nameHindi": "ध्वनि",
+              "nameEnglish": "Sound",
+              "topics": [
+                {
+                  "id": "sound",
+                  "icon": "🔊",
+                  "nameHindi": "ध्वनि",
+                  "nameEnglish": "Sound",
+                  "realWorldTag": "📱 Music और Phone",
+                  "progressPercent": 0,
+                  "conceptHindi": "आपकी आवाज़ कैसे दूसरे तक पहुँचती है? हवा में तरंगें बनती हैं — यही ध्वनि है।",
+                  "realWorldExampleHindi": "Guitar बजाने पर string vibrate करती है → air waves बनती हैं → ear तक पहुँचती है। Ultrasound machine pregnancy में इसी का use करती है।",
+                  "formula": "v = fλ",
+                  "keyPoints": [
+                    "ध्वनि longitudinal wave है",
+                    "हवा में speed: 343 m/s",
+                    "Frequency (Hz) = pitch",
+                    "Amplitude = loudness",
+                    "20 Hz – 20,000 Hz = human hearing range"
+                  ],
+                  "businessConnectionHindi": "Recording studio, speaker manufacturing, ultrasound clinic, sonar technology — सब sound physics!",
+                  "animationType": "sound",
+                  "quiz": {
+                    "questionHindi": "ध्वनि किसमें travel नहीं कर सकती?",
+                    "options": ["हवा", "पानी", "निर्वात", "लोहा"],
+                    "correctIndex": 2,
+                    "explanationHindi": "बिल्कुल! Vacuum (निर्वात) में medium नहीं होता इसलिए ध्वनि travel नहीं कर सकती।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chem_9",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "chapters": [
+            {
+              "id": "chem9_ch1",
+              "nameHindi": "पदार्थ — प्रकृति एवं व्यवहार",
+              "nameEnglish": "Matter — Nature and Behaviour",
+              "topics": [
+                {
+                  "id": "states_matter",
+                  "icon": "🧊",
+                  "nameHindi": "पदार्थ की अवस्थाएं",
+                  "nameEnglish": "States of Matter",
+                  "realWorldTag": "🧊 बर्फ से भाप",
+                  "progressPercent": 0,
+                  "conceptHindi": "बर्फ → पानी → भाप — यह तीनों एक ही चीज़ के तीन रूप हैं!",
+                  "realWorldExampleHindi": "Pressure cooker में पानी को heat दो → भाप बनती है → pressure बढ़ता है → खाना जल्दी पकता है। AC में refrigerant liquid → gas → liquid cycle में बदलता रहता है।",
+                  "formula": null,
+                  "keyPoints": [
+                    "ठोस: नियत shape और volume",
+                    "द्रव: नियत volume, shape बदलता है",
+                    "गैस: न shape न volume नियत",
+                    "Sublimation: ठोस → सीधे गैस (कपूर, नेफ्थलीन)",
+                    "Plasma: चौथी अवस्था (सूर्य में)"
+                  ],
+                  "businessConnectionHindi": "Cold storage business, ice cream factory, LPG cylinder — पदार्थ की अवस्थाओं का व्यावसायिक उपयोग!",
+                  "animationType": "states_matter",
+                  "quiz": {
+                    "questionHindi": "कपूर किस प्रक्रिया से सीधे ठोस से गैस बनता है?",
+                    "options": ["वाष्पीकरण", "संघनन", "ऊर्ध्वपातन", "गलन"],
+                    "correctIndex": 2,
+                    "explanationHindi": "सही! Sublimation (ऊर्ध्वपातन) में ठोस सीधे गैस में बदलता है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chem9_ch2",
+              "nameHindi": "परमाणु की संरचना",
+              "nameEnglish": "Structure of the Atom",
+              "topics": [
+                {
+                  "id": "atom_struc",
+                  "icon": "⚛️",
+                  "nameHindi": "परमाणु की संरचना",
+                  "nameEnglish": "Structure of Atom",
+                  "realWorldTag": "💻 Chip में Silicon",
+                  "progressPercent": 0,
+                  "conceptHindi": "हर चीज़ atoms से बनी है। Atom के अंदर — Proton (+), Neutron (0), Electron (-) होते हैं।",
+                  "realWorldExampleHindi": "आपका mobile phone Silicon chips से बना है। Silicon का atomic number 14 है — 14 protons, 14 electrons। Nuclear power plant uranium atoms को split करके energy निकालता है।",
+                  "formula": "E = hν",
+                  "keyPoints": [
+                    "Proton (+), Neutron (0), Electron (-)",
+                    "Atomic Number = protons की संख्या",
+                    "Mass Number = protons + neutrons",
+                    "Valence electrons = chemical bonding",
+                    "Bohr Model: electrons fixed orbits में"
+                  ],
+                  "businessConnectionHindi": "Nuclear energy plant, semiconductor manufacturing, MRI machine — atomic physics का commercial use!",
+                  "animationType": "atom",
+                  "quiz": {
+                    "questionHindi": "Sodium (Na) का Atomic Number कितना है?",
+                    "options": ["10", "11", "12", "23"],
+                    "correctIndex": 1,
+                    "explanationHindi": "बिल्कुल! Sodium का Atomic Number 11 है — 11 protons और 11 electrons।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bio_9",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "chapters": [
+            {
+              "id": "bio9_ch5",
+              "nameHindi": "जीवन की मौलिक इकाई",
+              "nameEnglish": "The Fundamental Unit of Life",
+              "topics": [
+                {
+                  "id": "cell",
+                  "icon": "🔬",
+                  "nameHindi": "कोशिका",
+                  "nameEnglish": "Cell",
+                  "realWorldTag": "🔬 शरीर की ईंट",
+                  "progressPercent": 0,
+                  "conceptHindi": "जैसे घर ईंटों से बना है — वैसे हमारा शरीर कोशिकाओं (cells) से बना है!",
+                  "realWorldExampleHindi": "एक pin की नोक पर हज़ारों cells आ सकते हैं। Blood microscope में लाल गोल cells दिखती हैं। Bacteria एक single cell है — यही आपको बीमार करता है।",
+                  "formula": null,
+                  "keyPoints": [
+                    "Cell = जीवन की basic unit",
+                    "Plant cell में cell wall होती है",
+                    "Mitochondria = powerhouse of cell (ATP)",
+                    "Nucleus = control center (DNA रखता है)",
+                    "Chloroplast = photosynthesis (only plants)"
+                  ],
+                  "businessConnectionHindi": "Biotechnology company, vaccine manufacturing, stem cell therapy — cell biology का commercial use!",
+                  "animationType": "cell",
+                  "quiz": {
+                    "questionHindi": "Mitochondria को क्या कहा जाता है?",
+                    "options": ["Brain of cell", "Powerhouse of cell", "Wall of cell", "Kitchen of cell"],
+                    "correctIndex": 1,
+                    "explanationHindi": "सही! Mitochondria को 'Powerhouse of cell' कहते हैं क्योंकि यह ATP (energy) बनाता है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bio9_ch6",
+              "nameHindi": "ऊतक",
+              "nameEnglish": "Tissues",
+              "topics": [
+                {
+                  "id": "photosynthesis",
+                  "icon": "🌿",
+                  "nameHindi": "प्रकाश संश्लेषण",
+                  "nameEnglish": "Photosynthesis",
+                  "realWorldTag": "🌾 खेती का आधार",
+                  "progressPercent": 0,
+                  "conceptHindi": "पेड़-पौधे खाना कहाँ से बनाते हैं? सूर्य का प्रकाश खाने में बदलता है!",
+                  "realWorldExampleHindi": "किसान के खेत में गेहूं — सूर्य की रोशनी, पानी और CO₂ लेकर glucose बनाता है। यही glucose हम रोटी के रूप में खाते हैं।",
+                  "formula": "6CO₂ + 6H₂O + Light → C₆H₁₂O₆ + 6O₂",
+                  "keyPoints": [
+                    "Chlorophyll = हरे पत्तों का pigment",
+                    "Reactants: CO₂ + H₂O + Sunlight",
+                    "Products: Glucose + O₂",
+                    "Light reaction → Thylakoid में",
+                    "Calvin Cycle (Dark reaction) → Stroma में"
+                  ],
+                  "businessConnectionHindi": "Organic farming, greenhouse business, algae से biofuel, vertical farming startups!",
+                  "animationType": "photosynthesis",
+                  "quiz": {
+                    "questionHindi": "प्रकाश संश्लेषण में कौन सी गैस निकलती है?",
+                    "options": ["CO₂", "N₂", "O₂", "H₂"],
+                    "correctIndex": 2,
+                    "explanationHindi": "सही! Photosynthesis में O₂ (Oxygen) निकलती है जो हम सांस लेते हैं।"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "class_10",
+      "label": "Class 10",
+      "labelHindi": "कक्षा 10",
+      "subjects": [
+        {
+          "id": "phy_10",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "chapters": [
+            {
+              "id": "phy10_ch10",
+              "nameHindi": "प्रकाश — परावर्तन और अपवर्तन",
+              "nameEnglish": "Light — Reflection & Refraction",
+              "topics": [
+                {
+                  "id": "light_refraction",
+                  "icon": "🌈",
+                  "nameHindi": "प्रकाश का परावर्तन और अपवर्तन",
+                  "nameEnglish": "Reflection & Refraction of Light",
+                  "realWorldTag": "🕶️ Lens और Mirror",
+                  "progressPercent": 0,
+                  "conceptHindi": "Rainbow कैसे बनती है? आईने में image क्यों दिखती है? यह सब प्रकाश के गुण हैं!",
+                  "realWorldExampleHindi": "Camera का lens light को refract करके film पर image बनाता है। Car का rearview mirror convex mirror है। Spectacles में concave/convex lens eye defects ठीक करता है।",
+                  "formula": "1/v - 1/u = 1/f",
+                  "keyPoints": [
+                    "∠i = ∠r (Reflection का नियम)",
+                    "Snell's Law: n₁sinθ₁ = n₂sinθ₂",
+                    "Concave mirror: converging",
+                    "Convex mirror: diverging (rearview)",
+                    "Lens formula: 1/v - 1/u = 1/f"
+                  ],
+                  "businessConnectionHindi": "Camera manufacturing, spectacle shop, telescope बनाना, fiber optic internet — सब optics!",
+                  "animationType": "light",
+                  "quiz": {
+                    "questionHindi": "Convex mirror का उपयोग कहाँ होता है?",
+                    "options": ["आँखों में", "Telescope में", "Rearview mirror में", "Projector में"],
+                    "correctIndex": 2,
+                    "explanationHindi": "बिल्कुल! Convex mirror rearview mirror में use होता है क्योंकि यह wide field of view देता है।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "phy10_ch12",
+              "nameHindi": "विद्युत",
+              "nameEnglish": "Electricity",
+              "topics": [
+                {
+                  "id": "electricity",
+                  "icon": "💡",
+                  "nameHindi": "विद्युत धारा",
+                  "nameEnglish": "Electric Current",
+                  "realWorldTag": "🏠 घर में रोज़",
+                  "progressPercent": 0,
+                  "conceptHindi": "आपके घर में बल्ब जलता है, पंखा चलता है — यह सब विद्युत धारा के कारण होता है।",
+                  "realWorldExampleHindi": "जब आप switch ON करते हैं — electrons तार में एक दिशा में दौड़ने लगते हैं। आपके mobile की charging भी यही process है!",
+                  "formula": "V = IR | P = VI",
+                  "keyPoints": [
+                    "विद्युत धारा = electrons का प्रवाह",
+                    "इकाई = Ampere (A)",
+                    "Ohm's Law: V = I × R",
+                    "Series: R_total = R₁+R₂+R₃",
+                    "Parallel: 1/R = 1/R₁ + 1/R₂"
+                  ],
+                  "businessConnectionHindi": "Solar panel + battery, mobile repair shop, electric vehicle charging station — future business!",
+                  "animationType": "circuit",
+                  "quiz": {
+                    "questionHindi": "विद्युत धारा की SI इकाई क्या है?",
+                    "options": ["Volt", "Ampere", "Watt", "Ohm"],
+                    "correctIndex": 1,
+                    "explanationHindi": "बिल्कुल सही! विद्युत धारा की इकाई Ampere (A) है।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chem_10",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "chapters": [
+            {
+              "id": "chem10_ch2",
+              "nameHindi": "अम्ल, क्षार और लवण",
+              "nameEnglish": "Acids, Bases and Salts",
+              "topics": [
+                {
+                  "id": "acid_base",
+                  "icon": "⚗️",
+                  "nameHindi": "अम्ल, क्षार और लवण",
+                  "nameEnglish": "Acids, Bases & Salts",
+                  "realWorldTag": "🍋 नींबू से साबुन",
+                  "progressPercent": 0,
+                  "conceptHindi": "नींबू का खट्टा स्वाद, साबुन का फिसलन — यह सब acid और base के कारण है।",
+                  "realWorldExampleHindi": "Antacid tablet (क्षार) लेने पर पेट की acidity ठीक होती है — Neutralization! Baking soda + vinegar = CO₂ bubbles।",
+                  "formula": "Acid + Base → Salt + Water",
+                  "keyPoints": [
+                    "Acid: pH < 7 | Base: pH > 7 | Neutral: pH = 7",
+                    "Strong Acid: HCl, H₂SO₄",
+                    "Neutralization: Acid + Base → Salt + Water",
+                    "Indicators: Litmus, Phenolphthalein",
+                    "Washing Soda = Na₂CO₃ | Baking Soda = NaHCO₃"
+                  ],
+                  "businessConnectionHindi": "Soap making, fertilizer production, pH meter business, Pickle industry!",
+                  "animationType": "ph_scale",
+                  "quiz": {
+                    "questionHindi": "शुद्ध पानी का pH मान कितना होता है?",
+                    "options": ["0", "7", "14", "4"],
+                    "correctIndex": 1,
+                    "explanationHindi": "सही! शुद्ध पानी neutral होता है — pH = 7।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bio_10",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "chapters": [
+            {
+              "id": "bio10_ch6",
+              "nameHindi": "जैव प्रक्रियाएं",
+              "nameEnglish": "Life Processes",
+              "topics": [
+                {
+                  "id": "heart_circulation",
+                  "icon": "🫀",
+                  "nameHindi": "मानव हृदय",
+                  "nameEnglish": "Human Heart",
+                  "realWorldTag": "❤️ आपके अंदर",
+                  "progressPercent": 0,
+                  "conceptHindi": "आपका दिल हर मिनट 5 लीटर खून पंप करता है — बिना रुके, 24 घंटे।",
+                  "realWorldExampleHindi": "जब आप दौड़ते हैं — muscles को ज़्यादा oxygen चाहिए। Heart तेज़ धड़कता है, ज़्यादा खून पंप होता है। Athletes का heart ज़्यादा efficient होता है।",
+                  "formula": null,
+                  "keyPoints": [
+                    "4 कक्ष: Right Atrium, Right Ventricle, Left Atrium, Left Ventricle",
+                    "Right side: O₂-poor blood → Lungs",
+                    "Left side: O₂-rich blood → Body",
+                    "Lub-Dub = valves का खुलना-बंद होना",
+                    "Normal: 70 beats/min"
+                  ],
+                  "businessConnectionHindi": "Health check-up center, ECG machine manufacturing, fitness trainer — body की knowledge!",
+                  "animationType": "heart",
+                  "quiz": {
+                    "questionHindi": "मानव हृदय में कितने कक्ष होते हैं?",
+                    "options": ["2", "3", "4", "5"],
+                    "correctIndex": 2,
+                    "explanationHindi": "बिल्कुल! मानव हृदय में 4 कक्ष हैं — 2 Atria और 2 Ventricles।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bio10_ch8",
+              "nameHindi": "आनुवांशिकता",
+              "nameEnglish": "Heredity",
+              "topics": [
+                {
+                  "id": "dna_genetics",
+                  "icon": "🧬",
+                  "nameHindi": "DNA और आनुवांशिकता",
+                  "nameEnglish": "DNA & Heredity",
+                  "realWorldTag": "👨‍👩‍👧 माँ-बाप से मिला",
+                  "progressPercent": 0,
+                  "conceptHindi": "आपकी आँखों का रंग, बालों का texture — यह सब DNA में लिखा है!",
+                  "realWorldExampleHindi": "Blood group test करके DNA से parents की पहचान होती है। Bt cotton — genetically modified crop। DNA test से diseases का पता लगता है।",
+                  "formula": null,
+                  "keyPoints": [
+                    "DNA = Deoxyribonucleic Acid",
+                    "4 bases: A, T, G, C",
+                    "Gene = DNA का specific segment",
+                    "Dominant vs Recessive genes",
+                    "मानव में 46 chromosomes (23 जोड़े)"
+                  ],
+                  "businessConnectionHindi": "DNA testing service, agricultural breeding, forensic lab, genetic counseling!",
+                  "animationType": "dna",
+                  "quiz": {
+                    "questionHindi": "मानव में sex determination किससे होता है?",
+                    "options": ["Autosomes से", "X और Y chromosomes से", "Mitochondria से", "Ribosomes से"],
+                    "correctIndex": 1,
+                    "explanationHindi": "सही! XX = female, XY = male। Sex chromosomes से sex determination होता है।"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "class_11",
+      "label": "Class 11",
+      "labelHindi": "कक्षा 11",
+      "subjects": [
+        {
+          "id": "phy_11",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "chapters": []
+        },
+        {
+          "id": "chem_11",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "chapters": []
+        },
+        {
+          "id": "bio_11",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "chapters": []
+        }
+      ]
+    },
+    {
+      "id": "class_12",
+      "label": "Class 12",
+      "labelHindi": "कक्षा 12",
+      "subjects": [
+        {
+          "id": "phy_12",
+          "nameHindi": "भौतिक विज्ञान",
+          "nameEnglish": "Physics",
+          "icon": "⚡",
+          "colorHex": "#3B82F6",
+          "chapters": []
+        },
+        {
+          "id": "chem_12",
+          "nameHindi": "रसायन विज्ञान",
+          "nameEnglish": "Chemistry",
+          "icon": "🧪",
+          "colorHex": "#EC4899",
+          "chapters": []
+        },
+        {
+          "id": "bio_12",
+          "nameHindi": "जीव विज्ञान",
+          "nameEnglish": "Biology",
+          "icon": "🧬",
+          "colorHex": "#10B981",
+          "chapters": []
+        }
+      ]
+    }
+  ]
+}
